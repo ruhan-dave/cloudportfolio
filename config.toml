@@ -1,0 +1,26 @@
+# The URL the site will be built for
+base_url = "https://awinterstein.github.io/zola-theme-project-portfolio-example"
+
+theme = "project-portfolio"
+
+taxonomies = [
+    {name = "projects", paginate_by = 5, feed = true},
+    {name = "skills", paginate_by = 5, feed = true},
+]
+
+[extra.index]
+title = "Main Title"
+slogan = "Slogan text that is shown under the title"
+image = "portrait.png"
+image_alt = "Placeholder text describing the index's image."
+
+[extra.social]
+codeberg = "https://codeberg.org/johndoe"
+github = "https://github.com/johndoe"
+gitlab = "https://gitlab.com/johndoe"
+twitter = "https://twitter.com/johndoe"
+mastodon = "https://social.somewhere.com/users/johndoe"
+linkedin = "https://www.linkedin.com/in/john-doe-b1234567/"
+stackoverflow = "https://stackoverflow.com/users/01234567/johndoe"
+telegram = "https://t.me/johndoe"
+email = "john.doe@gmail.com"
