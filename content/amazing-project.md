@@ -6,6 +6,7 @@ date = 2022-05-31
 [extra]
 date_start = 2021-01-01
 image = "fire.jpg" # https://unsplash.com/de/fotos/-JdMihDkP-vc
+top_project = true
 
 [taxonomies]
 projects=["Consumer"]
