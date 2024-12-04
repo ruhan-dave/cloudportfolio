@@ -8,6 +8,39 @@ taxonomies = [
     {name = "skills", paginate_by = 5, feed = true},
 ]
 
+[translations]
+language_symbol = "🇬🇧"
+home = "Home"
+projects = "Projects"
+skills = "Skills"
+read_more = "Read More"
+skills_technologies = "Skills & Technologies"
+main_skills = "Main Skills"
+other_skills = "Additional Skills"
+
+[languages.de]
+title = "Projekt-Portfolio"
+taxonomies = [
+    {name = "projects", paginate_by = 5, feed = true},
+    {name = "skills", paginate_by = 5, feed = true},
+]
+
+[languages.de.translations]
+language_symbol = "🇩🇪"
+home = "Home"
+projects = "Projekte"
+skills = "Qualifikationen"
+read_more = "Weiterlesen"
+skills_technologies = "Qualifikationen & Technologien"
+main_skills = "Top-Fähigkeiten"
+other_skills = "Weitere Fähigkeiten"
+
+[extra]
+enable_multilingual = true
+
+[extra.navbar]
+title = "Project Portfolio"
+
 [extra.index]
 title = "Main Title"
 slogan = "Slogan text that is shown under the title"

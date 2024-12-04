@@ -1,0 +1,20 @@
++++
+title = "Großartiges Projekt"
+description = "Hier ist eine kurze Beschreibung des Projekts."
+date = 2022-05-31
+
+[extra]
+date_start = 2021-01-01
+image = "fire.jpg" # https://unsplash.com/de/fotos/-JdMihDkP-vc
+top_project = true
+
+[taxonomies]
+projects=["Consumer"]
+skills=["Thinking", "Hype Technology"]
++++
+
+Informationen über dieses großartige Projekt sind hier verfügbar. So dass die Leser verstehen können, warum es wichtig ist und was interessant an ihn ist.
+
+## Verantwortlichkeiten
+
+Meine Verantwortlichkeiten in diesem Projekt werden hier beschrieben.
