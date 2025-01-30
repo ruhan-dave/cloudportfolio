@@ -6,4 +6,3 @@
     zola build
   """
   publish = "public"
-
