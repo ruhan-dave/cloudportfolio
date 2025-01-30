@@ -1,6 +1,7 @@
 # The URL the site will be built for
-base_url = "https://awinterstein.github.io/zola-theme-project-portfolio-example"
-
+base_url = "http://localhost:1111"
+description = "A site for showcasing projects."
+author = "Dave Wang (Ru Han Wang)"
 theme = "project-portfolio"
 
 taxonomies = [
@@ -8,8 +9,7 @@ taxonomies = [
     {name = "skills", paginate_by = 5, feed = true},
 ]
 
-[translations]
-language_symbol = "🇬🇧"
+[extra]
 home = "Home"
 projects = "Projects"
 skills = "Skills"
@@ -17,43 +17,25 @@ read_more = "Read More"
 skills_technologies = "Skills & Technologies"
 main_skills = "Main Skills"
 other_skills = "Additional Skills"
-
-[languages.de]
-title = "Projekt-Portfolio"
-taxonomies = [
-    {name = "projects", paginate_by = 5, feed = true},
-    {name = "skills", paginate_by = 5, feed = true},
+menu_items = [
+    { name = "Projects", url = "/projects/" },
+    { name = "About", url = "/about/" }
 ]
-
-[languages.de.translations]
-language_symbol = "🇩🇪"
-home = "Home"
-projects = "Projekte"
-skills = "Qualifikationen"
-read_more = "Weiterlesen"
-skills_technologies = "Qualifikationen & Technologien"
-main_skills = "Top-Fähigkeiten"
-other_skills = "Weitere Fähigkeiten"
-
-[extra]
-enable_multilingual = true
 
 [extra.navbar]
 title = "Project Portfolio"
 
 [extra.index]
-title = "Main Title"
-slogan = "Slogan text that is shown under the title"
+title = "Welcome to My Cloud Portfolio!"
+slogan = """With a Master of Engineering in AI, I have technical and business know-how of large-scale data 
+analytics and machine learning. This portfolio site serves to show you the value I can deliver to your 
+organization's cloud computing needs."""
 image = "portrait.png"
-image_alt = "Placeholder text describing the index's image."
+image_alt = "I have experience with data science, ML, and cloud computing."
 
 [extra.social]
-codeberg = "https://codeberg.org/johndoe"
-github = "https://github.com/johndoe"
-gitlab = "https://gitlab.com/johndoe"
-twitter = "https://twitter.com/johndoe"
-mastodon = "https://social.somewhere.com/users/johndoe"
-linkedin = "https://www.linkedin.com/in/john-doe-b1234567/"
-stackoverflow = "https://stackoverflow.com/users/01234567/johndoe"
-telegram = "https://t.me/johndoe"
-email = "john.doe@gmail.com"
+machine_learning_portfolio = "https://www.davesportfolio.tech"
+github = "https://github.com/ruhan-dave"
+gitlab = "https://gitlab.com/ruhan-dave"
+linkedin = "https://www.linkedin.com/in/ruhan-wang-3b946b175/"
+email = "dave.wang@duke.edu"
