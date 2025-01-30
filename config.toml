@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://localhost:1111"
+base_url = "http://davescloudportfolio.com"
 description = "A site for showcasing projects."
 author = "Dave Wang (Ru Han Wang)"
 theme = "project-portfolio"
