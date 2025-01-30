@@ -1,4 +1,4 @@
 [submodule "themes/project-portfolio"]
 	path = themes/project-portfolio
-	url = https://github.com/ruhan-dave/cloudportfolio.git
+	url = https://github.com/awinterstein/zola-theme-project-portfolio-example.git
 	branch = main
