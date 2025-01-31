@@ -8,3 +8,6 @@
   zola build
   """
   publish = "public"
+
+[build.environment]
+  GIT_SUBMODULE_STRATEGY = "recursive"
