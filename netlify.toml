@@ -2,5 +2,5 @@
   command = "zola build"
   publish = "public"
 
-[plugins]
+[[plugins]]
   package = "@netlify/plugin-build-utils"
