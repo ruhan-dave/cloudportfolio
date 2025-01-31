@@ -3,7 +3,6 @@ base_url = "http://davescloudportfolio.com"
 description = "A site for showcasing projects."
 author = "Dave Wang (Ru Han Wang)"
 theme = "project-portfolio"
-template_dir = "templates"
 
 taxonomies = [
     {name = "projects", paginate_by = 5, feed = true},
